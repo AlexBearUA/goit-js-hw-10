@@ -40,23 +40,27 @@ ul {
   font-size: 32px;
   font-weight: medium;
 }
-
-.country-info__item {
+.country-name {
   display: flex;
   align-items: center;
   gap: 20px;
+  font-size: 36px;
+  font-weight: bold;
 }
-
-.country-info__country-flag {
+.country-flag {
   width: 80px;
-  height: 50px;
+  height: 60px;
 }
 
-.country-info__country-name {
-  font-size: 32px;
+.country-info {
+  font-size: 30px;
+}
+
+.country-subtitle {
   font-weight: bold;
 }
 
-.country-info__subtitle {
-  font-weight: bold;
+.notiflix-notify {
+  top: 0;
+  left: 240px;
 }
